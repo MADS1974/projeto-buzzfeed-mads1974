@@ -1,29 +1,24 @@
-<div class="quizz__container">
-
-    <div class="quizz_logo">
-      <img src="/projeto-buzzfeed-mads1974/src/assets/imgs/logo.png" alt="" srcset="">
-      <h3>{{title}}</h3>
-    </div>
-  
-    <div *ngIf=!finished class="quizz_questions">
-        <h3>{{questionSelected.question}}</h3>
-    </div>
-  
-    <div *ngIf=!finished class="quizz_options">
-  
-      <button
-        *ngFor="let option of questionSelected.options; let i = index"
-        (click)="playerChoose(option.alias)"
-        class="btn-option"
-      >
-        {{option.name}}
-      </button>
-  
-    </div>
-  
-    <div *ngIf=finished class="quizz_results">
-      <h1>O Seu resultado é:</h1>
-      <p>{{answerSelected}}</p>
-    </div>
+<div class="quizz-container">
+  <div class="quizz-logo">
+      <img src="" alt="">
+      <h3 class="dec">{{ title }}</h3>
   </div>
+
+  <div *ngIf=!finished class="quizz-questions">
+      <h3>{{ questionsSelected.question }}</h3>
+  </div>
+
+  <div *ngIf=!finished class="quizz-answers">
+      <button *ngFor="let option of questionsSelected.options; let i = index" (click)="playerChoose(option.alias)" class="btn-option">{{ option.name }}</button>
+  </div>
+
+  <div *ngIf="finished" class="quizz-results">
+  <h2>Resultado:</h2>
+  <p class="final">{{ answersSelected }}</p>
+  <button class="btn-reset-quizz" (click)="resetQuiz()">Fazer Quizz Novamente</button>
+</div>
+
+</div>
+
+
   
