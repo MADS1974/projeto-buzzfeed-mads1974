@@ -1,0 +1,73 @@
+{
+  "title":"QUAL ÁREA DEVO SEGUIR?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Qual é o seu interesse principal ?",
+      "options":[
+        {"id": 1, "name":"Desenvolvedor/Designer (UI), Software, Devops.", "alias":"A"},
+        {"id": 2, "name":"DEV Android/iOS, Flutter, Apps.", "alias":"B"},
+        {"id": 3, "name":"Designer/produtor/tester de jogos.", "alias":"C"},
+        {"id": 4, "name":"Analista de Negócios.", "alias":"D"},
+        {"id": 5, "name":"Machine Learning, BI, Data Analytics.", "alias":"E"},
+        {"id": 6, "name":"Criptografia, Conformidade e Governança.", "alias":"F"}
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Em qual ambiente você se sente mais confortável ?",
+      "options": [
+        {"id": 1, "name": "Front-end (interface do usuário).", "alias": "A"},
+        {"id": 2, "name": "Back-end (lógica e estrutura do aplicativo).", "alias": "B"},
+        {"id": 3, "name": "Full Stack.", "alias": "C"},
+        {"id": 4, "name": "Devops.", "alias": "D"},
+        {"id": 5, "name": "Quality Assurance (QA).", "alias": "E"},
+        {"id": 6, "name": "Segurança da Informação.", "alias": "F"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Gosta mais de trabalhar com :",
+      "options":[
+        {"id": 1, "name":"Dados e análises.", "alias":"E"},
+        {"id": 2, "name":"Experiência do usuário (UX/UI).", "alias":"A"},
+        {"id": 3, "name":"Proteger sistemas contra ameaças cibernéticas.", "alias":"B"},
+        {"id": 4, "name":"Criar e manter infraestruturas escaláveis na nuvem.", "alias":"C"},
+        {"id": 5, "name":"Desenvolver Apps.", "alias":"D"},
+        {"id": 6, "name":"Teste de Segurança e Hacking Ético.", "alias":"F"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Sistema operacional preferido para desenvolvimento ?",
+      "options":[
+        {"id": 1, "name":"Windows", "alias":"C"},
+        {"id": 2, "name":"Linux", "alias":"B"},
+        {"id": 3, "name":"MacOS", "alias":"A"},
+        {"id": 4, "name":"VM", "alias":"E"},
+        {"id": 5, "name":"BSD", "alias":"D"},
+        {"id": 6, "name":"Todos", "alias":"F"}
+      ]
+    },
+    {
+      "id":5,
+      "question": "Linguagem de programação preferida ?",
+      "options":[
+        {"id": 1, "name":"Alto nível, mais abstratas e fáceis de entender.", "alias":"B"},
+        {"id": 2, "name":"Baixo nível, mais próximas do hardware e eficientes.", "alias":"D"},
+        {"id": 3, "name":"Orientadas a Objetos.", "alias":"C"},
+        {"id": 4, "name":"Linguagens para consulta a Bancos de Dados.", "alias":"E"},
+        {"id": 5, "name":"Linguagens de marcação.", "alias":"A"},
+        {"id": 6, "name":"Automação e scripting.", "alias":"F"}
+      ]
+    }
+  ],
+  "results":{
+    "A": "Desenvolvimento Web",
+    "B": "Desenvolvimento Mobile",
+    "C": "Desenvolvimento de Software",
+    "D": "Desenvolvimento de Jogos",
+    "E": "Análise de Dados e Ciência de Dados",
+    "F": "Cybersecurity"
+  }
+}
